@@ -1,0 +1,164 @@
+/* COLOR SCHEME
+main-blue: #42B2FA;
+gray: #EDEDED;
+red: #FF5964;
+darker-gray: #948D9B
+purple: #351431;
+*/
+
+/* SEMANTIC */
+.column {
+  background-color: rgb(207, 207, 207);
+}
+
+.segment-top {
+  background-color: #42B2FA!important;
+  color: #FFF;
+}
+
+.segment-top h3 {
+  font-size: 2rem;
+}
+
+.ui .button {
+  background-color: #351431;
+  color: #FFF;
+  transition: all .4s;
+}
+
+.ui .button:hover {
+  background-color: #914788;
+  color: #FFF;
+}
+/* GLOBAL */
+body {
+  background-color: rgba(20, 68, 99, 0.486);
+  background-image: url("https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-1.2.1&auto=format&fit=crop&w=2255&q=80");
+  background-size: cover;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+header {
+  background-color: #42B2FA;
+}
+
+#header-logo {
+  width: 20rem;
+  padding: 1rem;
+  margin-left: 20rem;
+}
+
+#header-box {
+  margin-top: 2rem;
+}
+
+/* CARDS */
+
+.ui.card, .ui.cards>.card {
+  color: #FFFFFF;
+  width: 32%;
+}
+
+/* Card Content */
+.ui.card>.content, .ui.cards>.card>.content {
+  background: #EDEDED;
+  color: #351431;
+}
+
+.header {
+  color: #351431!important;
+  font-size: 1.5rem!important;
+  padding-bottom: 1rem;
+}
+
+.meta a {
+  color: #351431!important;
+}
+
+.description {
+  color: #42B2FA!important; 
+}
+
+.btn-left, .btn-right {
+  background-color: #351431!important;
+  transition: .4s;
+}
+
+.btn-left:hover, .btn-right:hover {
+  background-color: #7c2b73!important;
+}
+
+.btn-right a {
+  color: #FFF!important;
+}
+
+.ui.card > .extra, .ui.cards > .card > .extra {
+  border-top: 2px solid rgba(237, 237, 237, 0.5)!important;
+}
+
+.ui.basic.green.button{
+  background: rgba(85, 255, 85, 0.473)!important;
+}
+.ui.cards>.card>.content a:not(.ui) {
+  color: #FFF;
+}
+
+
+.ui.basic.red.button {
+  color: #FFF!important;
+  background-color: rgba(255, 89, 100, 0.562)!important;
+}
+
+/* LIST */
+#ingredientsDiv li {
+  font-size: 1.4rem;
+  line-height: 40px;
+}
+
+/* BEER DIV */
+#testingBeerDiv p {
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #948D9B;
+}
+
+.copyright {
+  display: inline-block;
+}
+
+.contributors {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.ui.list>.item .header {
+  margin-left: -10px; 
+  padding: 1rem;
+}
+
+.ui.list>.item{
+  padding: 0 1rem;
+}
+
+.ui.list>.item>img.image {
+  display: block;
+}
+
+.ui.avatar.image {
+  height: 5rem;
+  width: auto;
+}
+#footer-logo {
+  display: inline-block;
+  height: 200px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
